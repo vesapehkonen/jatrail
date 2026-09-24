@@ -9,26 +9,29 @@ single editor.
   <img src="jatrail.jpg" alt="JaTrail web and Android application" width="720">
 </p>
 
+<br>
+
 <h2>Use JaTrail</h2>
 
-<table>
-  <tr>
-    <td width="65%" valign="top">
-      <h3>Web app</h3>
-      <p>Browse public trails or sign in to create and manage your own trails.</p>
-      <p><a href="https://jatrail.com">Open jatrail.com →</a></p>
-      <h3>Android app</h3>
-      <p>Record GPS trails and geotagged photos on Android, then upload them
-      to your JaTrail server.</p>
-      <p><a href="https://play.google.com/store/apps/details?id=com.jatrail">Get JaTrail on Google Play →</a></p>
-    </td>
-    <td width="35%" align="center">
-      <a href="https://play.google.com/store/apps/details?id=com.jatrail">
-        <img src="jatrail-android.jpg" alt="JaTrail Android trail details screen" width="240">
-      </a>
-    </td>
-  </tr>
-</table>
+<img
+  src="jatrail-android.jpg"
+  alt="JaTrail Android trail details screen"
+  width="240"
+  align="right">
+
+<h3>Web app</h3>
+
+<p>Browse public trails or sign in to create and manage your own trails.</p>
+
+<p><a href="https://www.jatrail.com">Open jatrail.com →</a></p>
+
+<h3>Android app</h3>
+
+<p>Record GPS trails and geotagged photos on Android, then upload them to your JaTrail server.</p>
+
+<p><a href="https://play.google.com/store/apps/details?id=com.jatrail">Get JaTrail on Google Play →</a></p>
+
+<br clear="right">
 
 ## Features
 
