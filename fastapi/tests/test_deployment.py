@@ -94,9 +94,12 @@ def test_fastapi_publish_workflow_scope_and_tags() -> None:
     assert ":latest" in workflow
     assert "imagetools inspect" in workflow
     assert "docker/build-push-action@v6" in workflow
+    assert "GITHUB_STEP_SUMMARY" in workflow
+    assert 'IMAGE_TAG: ${{ github.sha }}' in workflow
+    assert 'echo "$IMAGE_TAG"' in workflow
     assert "retention" not in workflow.lower()
     assert hashlib.sha256(workflow_bytes).hexdigest() == (
-        "7d54a9285b5426e6eb9e6ee13857efda8f3fe5b34028edef2798cf302b3bf804"
+        "3d781ca27aa834583ed12a9835504bdb19284a7172cebb29313f71f5f481361f"
     )
 
 

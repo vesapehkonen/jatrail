@@ -147,6 +147,8 @@ successful build. Android-only and documentation-only pushes do not start the
 workflow. This existing build pipeline does not deploy to the VPS, create Git
 tags, or delete container images. Deployment is performed separately through
 the manual **Deploy JaTrail stack** and **Deploy JaTrail backend** workflows.
+After a successful publish run, open its summary to copy the full commit SHA
+into the backend deployment workflow's `image_tag` input.
 
 ### Create an administrator
 
