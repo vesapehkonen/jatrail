@@ -1,7 +1,15 @@
 {% extends "base.html" %}
 {% block content %}
   {% if authenticated %}
-    <section class="page-heading"><div><span class="eyebrow">Trail library</span><h1>Your trails</h1><p>Open a trail to explore its route, photos and elevation.</p></div><a class="button-link" href="/trails?scope=public">Explore public trails</a></section>
+    <section class="page-heading">
+      <div>
+        <span class="eyebrow">Trail library</span>
+        <h1>Your trails</h1>
+        <p>Open a trail to explore its route, photos and elevation.</p>
+        <p class="app-download-prompt">Record trails on Android. <a href="https://play.google.com/store/apps/details?id=com.jatrail">Get JaTrail on Google Play →</a></p>
+      </div>
+      <a class="button-link" href="/trails?scope=public">Explore public trails</a>
+    </section>
   {% else %}
     <section class="landing-hero">
       <div class="hero-copy">
@@ -9,6 +17,7 @@
         <h1>Every trail tells<br>a story.</h1>
         <p>Record, correct and share GPS trails with photos tied to the places they were taken.</p>
         <div class="hero-actions"><button id="open-sign-in" type="button">Sign In</button><a class="secondary-button" href="/register">Create Account</a></div>
+        <p class="app-download-prompt">Record trails on Android. <a href="https://play.google.com/store/apps/details?id=com.jatrail">Get JaTrail on Google Play →</a></p>
         {% if trails %}<a class="hero-browse-link" href="/trails">Browse public trails</a>{% endif %}
       </div>
       <div class="hero-preview" aria-hidden="true">

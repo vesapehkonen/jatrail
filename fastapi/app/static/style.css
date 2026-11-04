@@ -296,11 +296,14 @@ dd { margin: 0; color: var(--stone-700); }
 .page-heading { display: flex; align-items: end; justify-content: space-between; gap: 1rem; margin-bottom: 1.25rem; }
 .page-heading h1, .page-heading h2 { margin: 0 0 .35rem; }
 .page-heading p { margin: 0; color: var(--stone-700); }
+.app-download-prompt a { font-weight: 700; }
+.page-heading .app-download-prompt { margin-top: .65rem; font-size: .9rem; }
 .trail-library { margin-bottom: 2rem; }
 .landing-hero { display: grid; grid-template-columns: minmax(0, .9fr) minmax(22rem, 1.1fr); align-items: center; gap: clamp(2rem, 6vw, 5rem); padding: clamp(2.5rem, 6vw, 4.5rem) 0; text-align: left; }
 .landing-hero h1 { color: var(--forest-900); font-size: clamp(3.2rem, 7vw, 5.8rem); line-height: .98; }
 .landing-hero p { max-width: 34rem; color: var(--stone-700); font-size: clamp(1.15rem, 2.5vw, 1.4rem); }
 .hero-actions { justify-content: flex-start; }
+.landing-hero .app-download-prompt { margin: 1rem 0 0; font-size: .95rem; }
 .hero-browse-link { display: inline-block; margin-top: .85rem; color: var(--stone-700); font-size: .9rem; font-weight: 700; }
 .hero-preview { position: relative; overflow: hidden; min-height: 22rem; background: linear-gradient(145deg, #e4f1e9, #f7f4e8); border: 1px solid #23815e2b; border-radius: 1.5rem; box-shadow: 0 25px 60px #173f3124; transform: rotate(1deg); }
 .hero-preview > svg { position: absolute; inset: 0; width: 100%; height: 100%; }
